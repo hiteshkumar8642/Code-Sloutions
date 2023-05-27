@@ -12,14 +12,14 @@ class Solution{
 public:
     int remove_duplicate(int a[],int n){
         // code here
-        int i=0;
-        for(int j=1;j<n;j++){
-            if(a[j]!=a[i]){
-                a[i+1]=a[j];
-                i++;
+        int ij=0;
+        for(int ji=1;ji<n;ji++){
+            if(a[ji]!=a[ij]){
+                a[ij+1]=a[ji];
+                ij++;
             }
         }
-        return i+1;
+        return ij+1;
     }
 };
 
