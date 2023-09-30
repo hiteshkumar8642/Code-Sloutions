@@ -12,7 +12,7 @@ class Solution
     //is 1 then all the cells in its ith row and jth column will become 1.
     void booleanMatrix(vector<vector<int> > &matrix)
     {
-        // code here 
+        // code here
         set <int> row;
         set <int> col;
         for(int i = 0 ; i < matrix.size() ; i++){
