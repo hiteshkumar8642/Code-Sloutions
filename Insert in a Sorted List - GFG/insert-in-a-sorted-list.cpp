@@ -45,7 +45,6 @@ class Solution{
     // Should return head of the modified linked list
     Node *sortedInsert(struct Node* head, int data) {
         // Code here
-    
         Node* temp = new Node(data);
     Node* current = head;
     Node* prev = NULL;
