@@ -42,7 +42,6 @@ class Solution
     int nodeLevel(int V, ArrayList<ArrayList<Integer>> adj, int X)
     {
         // code here
-    
         // code here
         boolean visited[] = new boolean [V];
         Queue<Integer> q = new ArrayDeque<>();
