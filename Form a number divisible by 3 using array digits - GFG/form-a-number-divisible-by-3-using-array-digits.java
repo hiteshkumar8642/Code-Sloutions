@@ -27,7 +27,7 @@ class GFG {
 // User function Template for Java
 
 class Solution {
-    int isPossible(int N, int arr[]) {
+  int isPossible(int N, int arr[]) {
         int digit, sum=0;
         for(int i=0;i<N;i++){
            int num=arr[i];
