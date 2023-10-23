@@ -10,7 +10,6 @@ class Solution{
 	int maxSumIS(int arr[], int n)  
 	{  
 	    // Your code goes here
-	
 	    int dp[n];
 	    for(int i = 0; i < n; i++)
 	        dp[i] = arr[i];
