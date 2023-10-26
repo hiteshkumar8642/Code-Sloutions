@@ -9,6 +9,7 @@ class Solution
     int minOperation(int n)
     {
         //code here.
+    
         int count =  0;
         while(n){
             if((n&1)==0) n = n>>1;
