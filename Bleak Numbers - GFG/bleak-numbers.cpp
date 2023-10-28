@@ -8,6 +8,9 @@ class Solution
 public:
 	int is_bleak(int n)
 	{
+	    // Code here.
+	
+	    
         int cnt=0;
         for(int i=n-sqrt(n);i<=n;i++)
         {
@@ -24,7 +27,7 @@ public:
         }
         
         return 1;
-    }
+	}
 };
 
 
